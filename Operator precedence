@@ -1,0 +1,68 @@
+#operator precedence
+print(8%2*1//2+12**2)
+     8%2*1//2+144
+     8%2//2+144
+     8%1+144
+     0+144
+   o/p=144
+     
+     
+ print(2**3//2+3-2/2)
+       8//2+3-2/2
+       8//2+3-1
+         4+3-1
+         7-1
+   o/p=   6
+         
+ print(5**2//5+5/5+8-2)
+       25//5+8/5+8-2
+       25//5+1.6+8-2
+       5+1.6+8-2
+       14.6-2
+   o/p=  12.6
+       
+ print((6 + 3) - (6 + 3))
+        (9-9)
+   o/p = 0
+        
+ print(6 ^ 2 + 1)
+       6^3     #addition is high precedence thn xor
+      6=0110     #binary value
+      3=0011  ^ XOR
+    o/p 0101 =5
+    
+    
+  print(5&2+2-1*2)
+       5&2+2-2
+       5&4-2
+       5&2
+      5=0101
+      2=0010   & operator
+ o/p=   0000=0
+ 
+ print(5==4+8/2**3-4)
+       5==4+8/8-4  # comparision operator
+       5==4+1-4
+       5==5-4
+       5==1 false
+       
+   print(5 + 4 - 7 + 3)
+          5+4=9
+          9-7=2
+          2+3=5
+          o/p=5
+          
+    print(not 5 == 5)
+          false
+          
+   print(8 >> 4 - 2)
+         8>>2  shift right of 2 values
+          8=001000
+            000010=2 right shift
+            o/p=2
+     print(8 << 4 - 2) 
+           8<<2
+           8=001000  left shift
+             100000=32
+            o/p=32
+          
