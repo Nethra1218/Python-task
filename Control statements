@@ -1,0 +1,122 @@
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a")
+
+
+num=20
+if num>1:
+    print("positive number")
+elif num==0:
+    print("zero")
+else:
+    print("negative number")
+'''
+a = 200
+b = 33
+'''
+if b > a:
+  print("b is greater than a")
+elif:
+  print("b is not greater than a")
+'''
+#if and print in one statement
+if a > b: print("a is greater than b")
+
+#ifelif in one statement
+a = 2
+b = 330
+print("A") if a > b else print("B")
+
+x = 41
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
+
+a = 33
+b = 200
+
+if b > a:
+  pass
+
+
+#while loop
+'''i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+# in while using bresk statement
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+
+#while loop using continue and if  statement
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+
+#while loop using else statemnet
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+
+
+#using for loop
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+
+# for loop with break statement
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+  
+# for loop using continue statement
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+'''
+#using range function in for loop
+for x in range(6):
+  print(x)
+
+for x in range(2, 6):
+  print(x)
+
+for x in range(2, 30, 3):
+  print(x)
+
+
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+
+
+for x in range(6):
+  if x == 3: break
+  print(x)
+else:
+  print("Finally finished!")
+
+#for in range using pass statement
+for x in [0, 1, 2]:
+  pass
