@@ -1,0 +1,87 @@
+#function using a def keyword
+
+def my_func():
+  print("python is easy")
+  return
+
+#calling a function
+def my_func():
+  print("Hello")
+  return
+
+my_func()
+
+#functions with passing an argument
+def my_func(fname):
+  print(fname)
+  return
+
+my_func("Emil")
+my_func("Tobias")
+my_func("Linus")
+
+#1 Default argument function prgms
+def deflt_func(name= "nethra"):
+  print(name)
+
+deflt_func("manu")
+deflt_func("akash")
+deflt_func()
+deflt_func("ankitha")
+
+#2 default args function
+
+def deflt_func(games= "suby surf"):
+  print(games)
+
+deflt_func("candy crush")
+deflt_func("temple run")
+
+
+#required arguments function
+
+def requiredArgs(x,y,z):
+  print(x,y,z)
+  return
+
+requiredArgs(20,30,"sql")
+requiredArgs(10.0, 30.55,"python")
+
+def requiredArgs(x,y,z):
+  print(x,y,z)
+  return
+requiredArgs(10.0, 30.55,40)
+
+
+#keyword arguments function
+
+def key_args(child3, child2, child1):
+  print("The youngest child is " + child3)
+  return
+key_args(child1 = "sunny", child2 = "chintu", child3 = "lilly")
+
+
+def key_args(x,y,z):
+    print(x,y,z)
+    return
+key_args(x=20,y=30,z=50.00)
+
+
+#variable argument function
+
+def variable_args(*kids):
+    print("list:",kids)
+    return
+variable_args("shiro", "mario", "banny")
+
+
+def variable_args(*x):
+    print("list:",x)
+    return
+variable_args(1,2,3)   #with passing numeric values
+
+
+def variable_args(*b):
+    print("list:",b)
+    return
+variable_args()       #without passing any value
